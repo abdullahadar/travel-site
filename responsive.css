@@ -206,7 +206,7 @@ height: 40px;
     height: 189px;
   margin-bottom: 10px;
   width: 100%;
-  border: 5px solid red;
+  /* border: 5px solid red; */
  margin-top: 10px;
 }
 
@@ -214,7 +214,7 @@ height: 40px;
     max-width: 575px;
     height: 189px;
     width: 100%;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   margin-left: auto;
 
 }
@@ -225,6 +225,7 @@ flex-direction: column;
 max-width: 575px;
 margin-top: -80px;
 margin-bottom: -80px;
+border: 5px solid red; 
 
 }
 
@@ -245,14 +246,16 @@ margin-bottom: -80px;
 .photo-comment>img{
     max-width: 575px;
     height: 280px;
-    width: 400px;
+    width: 90%;
     flex-shrink: 0;
     /* border: 5px solid red; */
 }
    
 footer{
+    
     padding-top: 20px;
     max-width: 575px;
+    width: 100%;
     height: 80%;
 
 }
@@ -274,17 +277,6 @@ text-align: center;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-}
 
 
 
